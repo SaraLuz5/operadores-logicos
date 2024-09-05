@@ -1,0 +1,12 @@
+4-
+programa {
+  funcao inicio() {
+    real temperatura
+
+    escreva("Qual a temperatura que está fazendo?  ")
+    leia(temperatura)
+
+    se (temperatura < 0) escreva("A temperatura é negativa!")
+    senao escreva("A temperatura é positiva!")
+  }
+}
