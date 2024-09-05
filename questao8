@@ -1,0 +1,36 @@
+8-
+programa
+{
+	
+	funcao inicio()
+	{
+		real 11
+		real 12
+		real 13 // As medidas dos lados dos triângulos
+
+		escreva("Informe o primeiro lado de um triângulo: ")
+		leia (11)
+		escreva("Informe o segundo lado de um triâNgulo: ")
+		leia (12)
+		escreva("Informe o terceiro lado de um triâNgulo: ")
+		leia (13)
+
+		se(11 < 12 + 13 e 12 < 11 + 13 e 13 < 11 + 12) {
+			se (11 == 12 e 12 == 13 e 11 == 13) {
+				escreva ("É possível formar um triângulo equilátero")
+			}
+
+			senao se (11 == 12 ou 11 == 13 ou 12 == 13){
+				escreva ("É possível formar um triângulo isóceles")
+			}
+
+			senao{
+				escreva("É possével formar um triângulo escaleno")
+			}
+			}
+
+			senao{
+				escreva ("Não é possível formar um triângulo")
+		}
+	}
+}
